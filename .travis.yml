@@ -8,18 +8,12 @@ matrix:
       python: 3.7
     - env: TOX_ENV=py36-django30
       python: 3.6
-    - env: TOX_ENV=py35-django30
-      python: 3.5
-    - env: TOX_ENV=py38-django20
-      python: 3.8
     - env: TOX_ENV=py37-django20
       python: 3.7
     - env: TOX_ENV=py36-django20
       python: 3.6
     - env: TOX_ENV=py35-django20
       python: 3.5
-    - env: TOX_ENV=py34-django20
-      python: 3.4
     - env: TOX_ENV=flake8
     - env: TOX_ENV=docs
 install: pip install tox
