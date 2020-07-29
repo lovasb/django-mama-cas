@@ -3,7 +3,7 @@ language: python
 matrix:
   include:
     - env: TOX_ENV=py38-djangomaster
-      python: 3.7
+      python: 3.8
     - env: TOX_ENV=py37-djangomaster
       python: 3.7
     - env: TOX_ENV=py36-djangomaster
